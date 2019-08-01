@@ -22,14 +22,15 @@ public class day02 {
 
         for (int j = 0; j < 10; j++) {
             if (j > 5) {
-                break;
+                break; //break语句
             }
 
             System.out.println("我爱Java" + j);
         }
         for (int n = 0; n < 10; n++) {
             if (n % 2 == 0) {
-                continue;
+                continue;// continue语句
+
             }
             System.out.println(n);
         }

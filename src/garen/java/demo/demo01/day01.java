@@ -12,7 +12,7 @@ public class day01 {
         for (int element : a)             //for each loop output
             System.out.println(element);
         System.out.println(Arrays.toString(a)); //class Arrays toString() output
-        int[] b = new int[]{2, 5, 3, 9, 7, 17, 13, 11, 19};
+        int[] b = new int[]{2, 5, 3, 9, 7, 17, 13, 11, 19};//静态初始化
 
         int[] copied_b = Arrays.copyOf(b, 2 * b.length); //copy array
         System.out.println(Arrays.toString(copied_b));
