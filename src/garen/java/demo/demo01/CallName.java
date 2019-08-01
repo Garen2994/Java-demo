@@ -19,16 +19,16 @@ public class CallName {
     public static void main(String[] args) {
         //存储姓名,姓名存储到数组中
         //数组存储姓名,姓名的数据类型,String
-        String[] names = {"张三","李四","王五","李蕾","韩梅梅","小明","老王","小华","约翰逊","爱丽丝"};
+        String[] names = {"张三", "李四", "王五", "李蕾", "韩梅梅", "小明", "老王", "小华", "约翰逊", "爱丽丝"};
         //预览所有人的姓名
-        for (String str : names )
+        for (String str : names)
             System.out.println(str);
         System.out.println("============");
 
         //随机出一个人的姓名
         Random ran = new Random();
         int index = ran.nextInt(names.length);
-        System.out.println("随机点的名字为："+names[index]);
+        System.out.println("随机点的名字为：" + names[index]);
 //        System.out.println(names[new Random().nextInt(names.length)]);
     }
 }

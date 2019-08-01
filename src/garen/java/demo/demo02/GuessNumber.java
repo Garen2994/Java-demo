@@ -44,11 +44,11 @@ public class GuessNumber {
 
                 System.out.println("Sorry!It's too small");
 
-            if (time == 5){
+            if (time == 5) {
                 System.out.println("Sorry!You have no chance.");
                 break;
             }
-            System.out.println("You have "+ (5-time) +" times to try");
+            System.out.println("You have " + (5 - time) + " times to try");
         }
 
     }
