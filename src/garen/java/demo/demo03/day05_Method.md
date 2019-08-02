@@ -75,11 +75,9 @@
 - 调用方法
   * a: 在main函数中调用方法，让方法执行起来
   * b: 方法的形参
-  			
-  			* 方法要什么参数我们就给什么类型的参数。
+       	方法要什么参数我们就给什么类型的参数。
   * c: 方法的返回值
-  			
-  			* 方法返回什么类型的值我们就用对应的数据类型的变量来接收
+       	方法返回什么类型的值我们就用对应的数据类型的变量来接收
 ### 05  调用方法执行流程  			
 * A: 调用方法执行流程
 	* a: 方法的定义是没有顺序的，写在main函数的上边或者下边都可以。
@@ -95,3 +93,41 @@
 	
   ![方法内存图](https://github.com/Garen2994/Image/blob/master/img/%E6%96%B9%E6%B3%95%E5%86%85%E5%AD%98%E5%9B%BE.JPG)
 
+### 07 方法的重载
+
+Java允许在一个类中定义多个名称相同的方法，但是参数的类型或个数必须不同，这就是方法的重载。下面的三个方法互为重载关系：
+
+- public static int add(int x,int y) {逻辑} //两个整数加法
+
+- public static int
+  add(int x,int y,int z) //三个整数加法
+  
+- public static int add(double x,double y) {逻辑} //两个小数加法
+
+
+#### * 重载的注意事项
+
+- 重载方法参数必须不同：
+	    参数个数不同，如method(int x)与method(int x,int y)不同
+	    参数类型不同，如method(int x)与method(double x)不同g
+	    参数顺序不同，如method(int x,double y)与method(double x,int y)不同
+	
+- 重载只与方法名与参数类型相关与返回值无关
+        如void method(int x)与int method(int y)不是方法重载，不能同时存在
+    
+- 重载与具体的变量标识符无关
+        如method(int x)与method(int y)不是方法重载，不能同时
+    
+    
+
+#### * 参数传递
+
+![参数传递](https://github.com/Garen2994/Image/blob/master/img/args.png)
+
+ #### 结论：
+
+- 当调用方法时，如果传入的数值为基本数据类型（包含String类型），形式参数的改变对实际参数不影响。
+
+- 当调用方法时，如果传入的数值为引用数据类型（String类型除外），形式参数的改变对实际参数有影响。
+
+  
