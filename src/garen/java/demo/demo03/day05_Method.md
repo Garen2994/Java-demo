@@ -33,7 +33,7 @@
    * 方法名：符合命名规则即可。方便我们的调用。
    * 参数：
          * 实际参数：就是实际参与运算的。
-             * 形式参数；就是方法定义上的，用于接收实际参数的。
+         * 形式参数；就是方法定义上的，用于接收实际参数的。
    * 参数类型：就是参数的数据类型
    * 参数名：就是变量名
    * 方法体语句：就是完成功能的代码。
@@ -88,10 +88,10 @@
 	
 * B: 调用方法执行流程图
 
-  ![](C:\Users\Administrator\Desktop\方法的调用流程.JPG)
+  ![方法调用流程](https://github.com/Garen2994/Image/blob/master/img/%E6%96%B9%E6%B3%95%E7%9A%84%E8%B0%83%E7%94%A8%E6%B5%81%E7%A8%8B.JPG)
 
 ### 06 方法调用的内存图
 * A: 方法调用的内存图
 	
-  ![](C:\Users\Administrator\Desktop\方法内存图.JPG)
+  ![方法内存图](https://github.com/Garen2994/Image/blob/master/img/%E6%96%B9%E6%B3%95%E5%86%85%E5%AD%98%E5%9B%BE.JPG)
 
