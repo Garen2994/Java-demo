@@ -1,5 +1,6 @@
 package garen.java.demo.demo04.ClassTest;
 
+
 public class ClassDemo {
     public static void main(String[] args) {
         //创建电饭锅引用类型
@@ -20,7 +21,7 @@ public class ClassDemo {
         System.out.println(c.brand + "  " + c.type + "  " + c.paiLiang);
 
         //创建学生引用类型
-        Student stu = new Student();
+        StudentClass stu = new StudentClass();
         stu.name = "张三";
         stu.age = 20;
         stu.sex = '男';
