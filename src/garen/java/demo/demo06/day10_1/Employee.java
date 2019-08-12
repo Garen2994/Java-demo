@@ -14,4 +14,14 @@ class Employee {
     public void show() {
         System.out.println("父类中show()");
     }
+
+    /*public Employee method(){
+
+
+    }
+    public Employee method1(){
+
+
+    }*/
+
 }
