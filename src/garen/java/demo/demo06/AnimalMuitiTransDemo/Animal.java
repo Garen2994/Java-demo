@@ -1,7 +1,7 @@
-package garen.java.demo.demo06.AnimalMuitiTransDemo;
+    package garen.java.demo.demo06.AnimalMuitiTransDemo;
 
-abstract class Animal {
+    abstract class Animal {
 
-    abstract void eat();
+        abstract void eat();
 
-}
+    }
