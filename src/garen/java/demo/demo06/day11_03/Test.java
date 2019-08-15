@@ -14,8 +14,8 @@ class Test {
         Fu f1 = new Zi();//类的多态使用
         System.out.println(f1.num);//调用引用型变量所属的类中的成员变量 //编译运行看左边
         f1.show();//编译看左边，运行看右边。
-        Zi z1 = (Zi) f;
-        z1.show();
+        boolean b = z instanceof Fu;
+        System.out.println(b);
     }
 
 }
