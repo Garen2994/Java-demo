@@ -71,7 +71,7 @@
 
 * B: 案例
 		
-	```java
+```java
 	class Demo {
 			//直接赋值
 			final int m = 100;
@@ -83,7 +83,7 @@
 				n = 2016;
 			}
 		}
-	```
+```
 	
 	
 
@@ -127,7 +127,7 @@
 ​	
 
 ### 03 static的内存图
- * A:![静态的内存图](G:\Java\day13_source\静态的内存图.JPG)
+ * A:![静态的内存图](https://github.com/Garen2994/Image/blob/master/img/13_1.JPG)
 
 ### 04 static注意事项_静态不能直接调用非静态
 * A: 注意事项
