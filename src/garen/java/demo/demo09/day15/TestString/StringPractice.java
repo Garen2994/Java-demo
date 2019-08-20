@@ -19,8 +19,8 @@ public class StringPractice {
 
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
-            //利用ASCII码 65-90 97-122 48-57
-            if (c >= 'A' && c <= 'Z')
+            //利用ASCII码 65-90 -> A-Z 97-122-> a-z 48-57 -> 0-9
+            if (c >= 65 && c <= 90)
                 upper++;
             else if (c >= 'a' && c <= 'z')
                 lower++;
