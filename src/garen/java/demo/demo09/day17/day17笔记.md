@@ -42,13 +42,13 @@
      	}
 ```
 
-###　03 Integer类
+### 03 Integer类
    * A:Integer类int转成字符串:
      * a:使用+与字符串拼接
               　  int i = 3;
               	String s = i+"";
               	System.out.println(s+1);//"31"
-  * b:toString(int ,int 进制),任意进制整数转成任意进制的字符串 (了解)
+     * b:toString(int ,int 进制),任意进制整数转成任意进制的字符串 (了解)
           	String s1 = Integer.toString(5,2);
           	System.out.println(s1);
 
