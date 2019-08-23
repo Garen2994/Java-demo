@@ -23,6 +23,7 @@ public class GenericDemo {
         iterator(array);
         iterator(set);
     }
+
     public static void iterator(Collection<?> coll){
         Iterator<?> it = coll.iterator();
         while(it.hasNext()){
