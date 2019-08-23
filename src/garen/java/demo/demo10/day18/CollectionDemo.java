@@ -43,4 +43,5 @@ public class CollectionDemo {
         coll.clear();
         System.out.println(coll);
     }
+
 }

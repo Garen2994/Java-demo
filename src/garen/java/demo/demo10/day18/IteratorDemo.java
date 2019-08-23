@@ -24,7 +24,6 @@ public class IteratorDemo {
 //            System.out.println(it2.next());
 //        }
     }
-
 }
 
 

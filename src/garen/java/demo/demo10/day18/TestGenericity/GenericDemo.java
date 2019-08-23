@@ -30,4 +30,5 @@ public class GenericDemo {
             System.out.println(it.next());
         }
     }
+
 }
