@@ -1,4 +1,4 @@
-package garen.java.demo.demo11;
+package garen.java.demo.demo11.day20;
 
 /*
  *  JDK1.5新的特性,方法的可变参数

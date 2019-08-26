@@ -1,4 +1,4 @@
-package garen.java.demo.demo11;
+package garen.java.demo.demo11.day20;
 /*
  * JDK1.5新特性,静态导入
  * 减少开发的代码量
