@@ -90,7 +90,7 @@ public class DDZPractice {
 
         for (Integer key : array) {
             String value = map.get(key);
-            System.out.println(key + " " + value);
+            System.out.println(value);
         }
 
 
