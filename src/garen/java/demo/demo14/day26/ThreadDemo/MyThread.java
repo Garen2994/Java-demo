@@ -1,4 +1,4 @@
-package garen.java.demo.demo14;
+package garen.java.demo.demo14.day26.ThreadDemo;
 
 public class MyThread extends Thread {
 
@@ -10,7 +10,7 @@ public class MyThread extends Thread {
     @Override
     public void run() {
         for (int i = 0; i < 10; i++) {
-            System.out.println(getName() + " is running！"+i);
+            System.out.println(Thread.currentThread().getName() + "-"+i);
         }
     }
 }
