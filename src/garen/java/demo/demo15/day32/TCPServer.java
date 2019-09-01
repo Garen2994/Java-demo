@@ -1,4 +1,4 @@
-package garen.java.demo.demo15;
+package garen.java.demo.demo15.day32;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -16,6 +16,7 @@ public class TCPServer {
         System.out.println(new String(b, 0, len));
         OutputStream out = socket.getOutputStream();
         out.write("Hi!Thanks".getBytes());
+
         socket.close();
         server.close();
     }
