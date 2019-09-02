@@ -1,4 +1,4 @@
-package garen.java.demo.demo16;
+package garen.java.demo.demo16.JDK8_Lambda;
 /*
 * 使用lambda标准格式调用invokeCook方法*/
 public class CookDemo {

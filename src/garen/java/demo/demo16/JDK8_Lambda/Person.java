@@ -1,4 +1,4 @@
-package garen.java.demo.demo16;
+package garen.java.demo.demo16.JDK8_Lambda;
 
 public class Person {
     private String name;

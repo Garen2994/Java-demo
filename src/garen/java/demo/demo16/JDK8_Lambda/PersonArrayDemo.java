@@ -1,7 +1,6 @@
-package garen.java.demo.demo16;
+package garen.java.demo.demo16.JDK8_Lambda;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class PersonArrayDemo {
     public static void main(String[] args) {
