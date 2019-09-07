@@ -35,7 +35,7 @@ public class JDBCUtils {
             System.out.println("注册驱动失败！");
         }
     }
-    public static Connection getConn() throws Exception {
+    public static Connection getConn() {
             Connection conn = null;
         try {
 
