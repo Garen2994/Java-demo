@@ -2,7 +2,7 @@ package garen.java.demo.demo19.ConnectionPool;
 
 import org.apache.commons.dbutils.QueryRunner;
 /**/
-public class ConnectionPoolTest {
+public class DBCPDemo {
     public static void main(String[] args) {
         try{
             QueryRunner qr = new QueryRunner(JDBCUtils.getDataSource());
