@@ -1,14 +1,19 @@
 package garen.java.demo.gjpProject.domain;
-
+/**
+ * @Title :　账务类
+ * @Description : 封装账务信息的JavaBean
+ * @Author : Garen
+ * @Date : 2019/10/21 20:05
+ */
 public class AccountApp {
-    private int id;
+    private int id;    //所有成员属性必须私有
     private String sortname;
     private double money;
     private String pay_way;
     private String createtime;
     private String description;
 
-    public AccountApp() {
+    public AccountApp() {  //必须有无参构造方法
     }
 
     public AccountApp(int id, String sortname, double money, String pay_way, String createtime, String description) {
@@ -20,7 +25,7 @@ public class AccountApp {
         this.description = description;
     }
 
-    public int getId() {
+    public int getId() {  //必须提供公开的getter和setter方法
         return id;
     }
 
