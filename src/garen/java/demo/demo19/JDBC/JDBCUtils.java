@@ -23,7 +23,7 @@ public class JDBCUtils {
         try{
             Properties pro = new Properties();
             Reader r;
-            r = new FileReader("F:\\workspace\\Java-demo\\src\\garen\\java\\demo\\demo19\\JDBC\\info.properties");
+            r = new FileReader("F:\\workspace\\Java-demo\\src\\garen\\java\\demo\\gjpProject\\info.properties");
             pro.load(r);
             DRIVERNAME = pro.getProperty("driver");
             URL = pro.getProperty("url");

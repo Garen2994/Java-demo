@@ -1,4 +1,7 @@
 package garen.java.demo.gjpProject.app;
+
+import garen.java.demo.gjpProject.view.MainView;
+
 /**
  * @Title : 主方法类
  * @Author : Garen
@@ -6,6 +9,7 @@ package garen.java.demo.gjpProject.app;
  */
 public class MainApp {
     public static void main(String[] args) {
-
+        MainView view = new MainView();
+        view.run();
     }
 }

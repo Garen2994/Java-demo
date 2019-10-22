@@ -5,7 +5,7 @@ package garen.java.demo.gjpProject.domain;
  * @Author : Garen
  * @Date : 2019/10/21 20:05
  */
-public class AccountApp {
+public class Account {
     private int id;    //所有成员属性必须私有
     private String sortname;
     private double money;
@@ -13,10 +13,10 @@ public class AccountApp {
     private String createtime;
     private String description;
 
-    public AccountApp() {  //必须有无参构造方法
+    public Account() {  //必须有无参构造方法
     }
 
-    public AccountApp(int id, String sortname, double money, String pay_way, String createtime, String description) {
+    public Account(int id, String sortname, double money, String pay_way, String createtime, String description) {
         this.id = id;
         this.sortname = sortname;
         this.money = money;
